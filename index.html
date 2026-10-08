@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SV Palace Hotel & Restaurant — elegant rooms, dining and hospitality.">
+<title>SV Palace | Hotel & Restaurant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#home"><span>SV</span><small>PALACE</small></a>
+  <button class="menu-btn" aria-label="Open menu">☰</button>
+  <nav class="nav">
+    <a href="#home">Home</a><a href="#rooms">Rooms</a><a href="#restaurant">Restaurant</a>
+    <a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a>
+    <a class="nav-cta" href="#booking">Book Now</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">WELCOME TO SV PALACE</p>
+    <h1>Stay in Comfort.<br><em>Dine in Style.</em></h1>
+    <p class="hero-copy">A refined destination for comfortable stays, memorable dining and warm Indian hospitality.</p>
+    <div class="hero-actions">
+      <a class="btn gold" href="#booking">Check Availability</a>
+      <a class="btn outline" href="#restaurant">Explore Dining</a>
+    </div>
+  </div>
+  <div class="scroll">SCROLL <span>↓</span></div>
+</section>
+
+<section class="intro">
+  <div class="section-tag">THE SV PALACE EXPERIENCE</div>
+  <h2>Hospitality with a <em>royal touch.</em></h2>
+  <p>From a restful room after a long journey to a beautifully served meal, SV Palace is designed around comfort, elegance and genuine service.</p>
+  <div class="features">
+    <div><b>01</b><strong>Elegant Rooms</strong><span>Comfortable spaces for business and leisure.</span></div>
+    <div><b>02</b><strong>Fine Dining</strong><span>Freshly prepared favourites for every occasion.</span></div>
+    <div><b>03</b><strong>Warm Service</strong><span>Personal attention from arrival to departure.</span></div>
+  </div>
+</section>
+
+<section id="rooms" class="dark-section">
+  <div class="section-head"><div><div class="section-tag">ACCOMMODATION</div><h2>Rooms made for <em>rest.</em></h2></div><p>Choose a comfortable stay tailored to your visit.</p></div>
+  <div class="cards">
+    <article class="card room-card room1"><div class="card-bottom"><span>01</span><h3>Deluxe Room</h3><p>Elegant interiors • King/Queen bed • Modern bath</p><strong>Enquire for rates →</strong></div></article>
+    <article class="card room-card room2"><div class="card-bottom"><span>02</span><h3>Executive Room</h3><p>Extra space • Work-friendly comfort • Premium amenities</p><strong>Enquire for rates →</strong></div></article>
+    <article class="card room-card room3"><div class="card-bottom"><span>03</span><h3>Family Room</h3><p>Spacious layout • Family comfort • Convenient facilities</p><strong>Enquire for rates →</strong></div></article>
+  </div>
+</section>
+
+<section id="restaurant" class="restaurant">
+  <div class="food-photo"></div>
+  <div class="restaurant-copy"><div class="section-tag">SV PALACE RESTAURANT</div><h2>Good food.<br><em>Beautiful moments.</em></h2>
+  <p>Bring family, friends or colleagues together over a delicious meal. Our menu can feature Indian favourites, snacks, beverages and specialities for every occasion.</p>
+  <div class="food-list"><span>Indian Cuisine</span><span>Breakfast</span><span>Family Dining</span><span>Special Events</span></div>
+  <a class="text-link" href="#contact">Ask about today’s menu →</a></div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="section-tag">A GLIMPSE OF SV PALACE</div><h2>Moments worth <em>remembering.</em></h2>
+  <div class="gallery-grid">
+    <div class="g g1"></div><div class="g g2"></div><div class="g g3"></div><div class="g g4"></div><div class="g g5"></div>
+  </div>
+</section>
+
+<section id="about" class="about dark-section">
+  <div><div class="section-tag">ABOUT US</div><h2>Your stay,<br><em>our priority.</em></h2></div>
+  <div class="about-copy"><p>SV Palace is built to offer a welcoming hotel and restaurant experience where comfort meets understated luxury. Whether you are visiting for business, a family occasion or a relaxing stop, our team is here to make your time with us easy and enjoyable.</p><div class="stats"><div><b>24/7</b><span>Guest Support</span></div><div><b>01</b><span>Warm Welcome</span></div><div><b>∞</b><span>Good Memories</span></div></div></div>
+</section>
+
+<section id="booking" class="booking">
+  <div class="section-tag">RESERVATION ENQUIRY</div><h2>Plan your <em>stay.</em></h2>
+  <form id="bookingForm">
+    <input required name="name" placeholder="Your name">
+    <input required name="phone" placeholder="Phone number" type="tel">
+    <input name="checkin" type="date" aria-label="Check-in date">
+    <input name="checkout" type="date" aria-label="Check-out date">
+    <select name="guests"><option>1 Guest</option><option>2 Guests</option><option>3 Guests</option><option>4+ Guests</option></select>
+    <button class="btn gold" type="submit">Send Enquiry</button>
+  </form>
+  <p class="form-note">Your enquiry will open WhatsApp with the details filled in for you.</p>
+</section>
+
+<section id="contact" class="contact dark-section">
+  <div><div class="section-tag">FIND US</div><h2>Come visit <em>SV Palace.</em></h2><p class="contact-text">For reservations, events, dining enquiries or directions, contact our team.</p></div>
+  <div class="contact-details">
+    <div><span>PHONE</span><a href="tel:+919999999999">+91 99999 99999</a></div>
+    <div><span>WHATSAPP</span><a id="waLink" href="#">Chat with us →</a></div>
+    <div><span>ADDRESS</span><p>Amla, Betul, Madhya Pradesh, India</p></div>
+    <div><span>HOURS</span><p>Front Desk: 24 Hours<br>Restaurant: 7:00 AM – 11:00 PM</p></div>
+  </div>
+</section>
+</main>
+
+<footer><div class="brand"><span>SV</span><small>PALACE</small></div><p>Hotel & Restaurant</p><p>© <span id="year"></span> SV Palace. All rights reserved.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
